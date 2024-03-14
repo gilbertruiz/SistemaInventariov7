@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SintemaInventariov7", "SintemaInventariov7\SintemaInventariov7.csproj", "{E016B60D-AA68-4BCC-8F75-04A454F2DDE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SintemaInventariov7", "SintemaInventariov7\SintemaInventariov7.csproj", "{E016B60D-AA68-4BCC-8F75-04A454F2DDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.AccesoDatos", "SistemaInventario.AccesoDatos\SistemaInventario.AccesoDatos.csproj", "{FA4B5CED-A6DB-4711-8726-95B48BD09A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.AccesoDatos", "SistemaInventario.AccesoDatos\SistemaInventario.AccesoDatos.csproj", "{FA4B5CED-A6DB-4711-8726-95B48BD09A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{52449744-A1E3-4CEC-B380-AA7F9FB10287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{52449744-A1E3-4CEC-B380-AA7F9FB10287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarios.Utilidades", "SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj", "{620C018E-1633-453F-A09E-93E1BC93F5B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventarios.Utilidades", "SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj", "{620C018E-1633-453F-A09E-93E1BC93F5B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
