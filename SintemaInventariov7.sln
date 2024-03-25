@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.AccesoDat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.Modelos", "SistemaInventario.Modelos\SistemaInventario.Modelos.csproj", "{52449744-A1E3-4CEC-B380-AA7F9FB10287}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventarios.Utilidades", "SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj", "{620C018E-1633-453F-A09E-93E1BC93F5B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaInventario.Utilidades", "SistemaInventarios.Utilidades\SistemaInventario.Utilidades.csproj", "{620C018E-1633-453F-A09E-93E1BC93F5B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

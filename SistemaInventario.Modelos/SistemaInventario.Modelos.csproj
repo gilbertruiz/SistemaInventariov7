@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj" />
+    <ProjectReference Include="..\SistemaInventarios.Utilidades\SistemaInventario.Utilidades.csproj" />
   </ItemGroup>
 
 </Project>

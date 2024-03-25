@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaInventario.Modelos\SistemaInventario.Modelos.csproj" />
-    <ProjectReference Include="..\SistemaInventarios.Utilidades\SistemaInventarios.Utilidades.csproj" />
+    <ProjectReference Include="..\SistemaInventarios.Utilidades\SistemaInventario.Utilidades.csproj" />
   </ItemGroup>
 
 </Project>
