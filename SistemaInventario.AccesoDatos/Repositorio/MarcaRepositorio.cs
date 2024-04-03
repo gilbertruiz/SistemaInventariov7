@@ -10,25 +10,27 @@ using System.Threading.Tasks;
 
 namespace SistemaInventario.AccesoDatos.Repositorio
 {
-    public class CategoriaRepositorio : Repositorio<Categoria>, ICategoriaRepositorio
+    public class MarcaRepositorio : Repositorio<Marca>, IMarcaRepositorio
     {
         private readonly ApplicationDbContext _db;
-        public CategoriaRepositorio(ApplicationDbContext db) : base(db)
+
+        public MarcaRepositorio(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
-        public void Actualizar(Categoria categoria)
+        public void Actualizar(Marca marca)
         {
-            var categoriaBD = _db.Categorias.FirstOrDefault(b => b.Id == categoria.Id);
-            if (categoriaBD != null)
+            var marcaBD = _db.Marcas.FirstOrDefault(b => b.Id == marca.Id);
+            if (marcaBD != null)
             {
-                categoriaBD.Nombre = categoria.Nombre;
-                categoriaBD.Descripcion = categoria.Descripcion;
-                categoriaBD.Estado = categoria.Estado;
+                marcaBD.Nombre = marca.Nombre;
+                marcaBD.Descripcion = marca.Descripcion;
+                marcaBD.Estado = marca.Estado;
                 _db.SaveChanges();
 
             }
         }
     }
+
 }
